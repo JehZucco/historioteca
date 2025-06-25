@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Quicksand:wght@300..700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #FFF7E6;
+    color: #223C58;
+}
+
+header{
+    border-bottom: 3px solid #223C58;
+    padding:20px 10px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.logo{
+    width: 50px;
+    
+}
+header h1{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+.nome{
+    font-family: "Quicksand", sans-serif;
+    color: #F25757;
+    color:  #223C58;
+    font-weight: 700;
+    position:absolute;
+    bottom: 0;
+    right: 10px;
+}
+
+h1, h2, h3{
+    font-family: "Fredoka", sans-serif;
+}
+
+.titulo{
+    padding: 20px 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    position: relative;
+}
+@media screen and (min-width: 768px) {
+    .titulo{
+       padding-top: 40px;
+       padding-left: 40px;
+    }
+  }
+
+.titulo h2{
+    font-weight: 600;
+}
+@media screen and (min-width: 1025px) {
+    .titulo h2{
+       font-size: 2rem;
+    }
+  }
+.titulo p{
+    color: #F25757;
+    font-family: "Quicksand", sans-serif;
+    /* font-family: "Fredoka", sans-serif; */
+    font-weight: 700;
+    /* font-size: 1.2rem; */
+}
+@media screen and (min-width: 1025px) {
+    .titulo p{
+       font-size: 1.2rem;
+       
+    }
+  }
+
+.cards{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 20px;
+    width: 100vw;
+}
+@media screen and (min-width: 768px) {
+    .cards{
+    
+    flex-direction: row;
+    flex-wrap: wrap; 
+    justify-content:baseline;
+    gap: 30px;
+    /* max-width: 1000px; */
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-left: 30px;
+    
+   
+    }
+  }
+.card{
+    border: 3px solid #223C58;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+@media screen and (min-width: 768px) {
+    .card{
+        width: 300px;
+        
+        
+    }
+  }
+.card h3{
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-size: 1.5rem;
+}
+.botoes{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+   
+}
+.botao{
+    border: #223C58 2px solid;
+    border-radius: 10px;
+    background-color: #F4B400;
+    padding: 5px 10px;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 700;
+}
+.botao a{
+    text-decoration: none;
+    color: #223C58;
+}
+.tema-1{
+    background-color: #F26B3A;
+}
+.tema-2{
+    background-color: #F4B400;
+}
+.tema-3{
+    background-color: #86D2DC;
+}
+.tema-4{
+    background-color: #F8AFA6;
+}
